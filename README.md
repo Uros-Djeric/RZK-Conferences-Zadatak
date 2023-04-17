@@ -18,8 +18,7 @@ dobijenim preko javnog web servisa Country Details. Podaci se dopunjavaju
 podacima o ISO kodu države, pozivnom broju (Dialing code) za državu I
 valutom koja se koristi. Opis ovog web servisa se nalazi na adresi:
 
-http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.
-wso?WSDL
+http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
 
 Nakon unošenja svih podataka u bazu podataka, MDB poruke prosleđuje u
 topic “confinfo”. Te poruke iz topic-a čitaju dva message driven bean-a koji
